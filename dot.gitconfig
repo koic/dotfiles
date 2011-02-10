@@ -1,0 +1,37 @@
+[user]
+	email = your@mail.address
+	name = Your Name
+[alias]
+	st = status
+	ad = add
+	l = log
+	lr = log --reverse
+	lp = log -p --stat
+	lpr = log -p --stat --reverse
+	b = branch -a
+	co = checkout
+	ci = commit -v
+	s = show
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+	interactive = auto
+[github]
+	user = your_github_account_name
+[alias]
+	br = branch
+	ca = commit -v --amend
+	ci = commit -v
+	co = checkout
+	ds = diff --staged
+	lg = log --graph
+	lp = log -p --stat
+	pr = pull --rebase
+	st = status
+	svd = svn dcommit
+	svf = svn fetch
+	svr = svn rebase
+	serve = daemon --export-all --base-path=. --base-path-relaxed
+	in = !sh -c 'git log ..origin/${1:-master}'
+	out = !sh -c 'git log origin/${1:-master}..' -

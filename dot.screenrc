@@ -7,4 +7,3 @@ bind 1 only
 bind 0 remove
 vbell off
 shell bash
-

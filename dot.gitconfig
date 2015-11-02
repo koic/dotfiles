@@ -1,6 +1,6 @@
 [user]
-	email = your@mail.address
-	name = Your Name
+	email = koic.ito@gmail.com
+	name = Koichi ITO
 [alias]
 	ad = add
 	b = branch -a
@@ -32,4 +32,4 @@
 	branch = auto
 	interactive = auto
 [github]
-	user = your_github_account_name
+	user = koic

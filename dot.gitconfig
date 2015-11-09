@@ -20,9 +20,6 @@
 	s = show
         sc = shortlog -s # SCouter
 	st = status
-	svd = svn dcommit
-	svf = svn fetch
-	svr = svn rebase
 	serve = daemon --export-all --base-path=. --base-path-relaxed
 	in = !sh -c 'git log ..origin/${1:-master}'
 	out = !sh -c 'git log origin/${1:-master}..' -

@@ -28,5 +28,7 @@
 	diff = auto
 	branch = auto
 	interactive = auto
+[fetch]
+	prune = true
 [github]
 	user = koic

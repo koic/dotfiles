@@ -14,7 +14,6 @@
 	lr = log --reverse
 	lp = log -p --stat
 	lpr = log -p --stat --reverse
-	pr = pull --rebase
 	rh = reset HEAD^
 	ri = !sh -c 'git rebase -i HEAD~$0'
 	s = show
@@ -32,3 +31,5 @@
 	prune = true
 [github]
 	user = koic
+[pull]
+	rebase = true

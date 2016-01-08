@@ -1,36 +1,36 @@
 [user]
-	email = koic.ito@gmail.com
-	name = Koichi ITO
+  email = koic.ito@gmail.com
+  name = Koichi ITO
 [alias]
-	ad = add
-	b = branch -a
-	br = branch
-	ca = commit -v --amend
-	ci = commit -v
-	co = checkout
-	cp = !sh -c 'git cherry-pick $0~$1...$0'
-	ds = diff --staged
-	l = log
-	lg = log --graph
-	lr = log --reverse
-	lp = log -p --stat
-	lpr = log -p --stat --reverse
-	rh = reset HEAD^
-	ri = !sh -c 'git rebase -i HEAD~$0'
-	s = show
-        sc = shortlog -s # SCouter
-	st = status
-	serve = daemon --export-all --base-path=. --base-path-relaxed
-	in = !sh -c 'git log ..origin/${1:-master}'
-	out = !sh -c 'git log origin/${1:-master}..' -
+  ad = add
+  b = branch -a
+  br = branch
+  ca = commit -v --amend
+  ci = commit -v
+  co = checkout
+  cp = !sh -c 'git cherry-pick $0~$1...$0'
+  ds = diff --staged
+  l = log
+  lg = log --graph
+  lr = log --reverse
+  lp = log -p --stat
+  lpr = log -p --stat --reverse
+  rh = reset HEAD^
+  ri = !sh -c 'git rebase -i HEAD~$0'
+  s = show
+  sc = shortlog -s # SCouter
+  st = status
+  serve = daemon --export-all --base-path=. --base-path-relaxed
+  in = !sh -c 'git log ..origin/${1:-master}'
+  out = !sh -c 'git log origin/${1:-master}..' -
 [color]
-	status = auto
-	diff = auto
-	branch = auto
-	interactive = auto
+  status = auto
+  diff = auto
+  branch = auto
+  interactive = auto
 [fetch]
-	prune = true
+  prune = true
 [github]
-	user = koic
+  user = koic
 [pull]
-	rebase = true
+  rebase = true

@@ -30,6 +30,8 @@
   interactive = auto
 [fetch]
   prune = true
+[ghq]
+  root = ~/src
 [github]
   user = koic
 [pull]

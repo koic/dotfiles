@@ -1,6 +1,6 @@
 alias g='git'
 
-GIT_VERSION=2.4.4
+GIT_VERSION=`git --version | cut -d ' ' -f3`
 source /usr/local/Cellar/git/$GIT_VERSION/etc/bash_completion.d/git-prompt.sh
 source /usr/local/Cellar/git/$GIT_VERSION/etc/bash_completion.d/git-completion.bash
 

@@ -1,5 +1,4 @@
 source ~/.bash/my.sh
-source ~/.bash/aliases.sh
 source ~/.bash/bundler.sh
 source ~/.bash/git.sh
 source ~/.bash/gnu-sed.sh
@@ -10,3 +9,4 @@ source ~/.bash/rails.sh
 source ~/.bash/rbenv.sh
 source ~/.bash/ruby.sh
 source ~/.bash/rspec.sh
+source ~/.bash/tips.sh

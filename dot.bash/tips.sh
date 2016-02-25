@@ -9,3 +9,5 @@ function replace_text() {
 }
 
 alias insert_frozen_string_literal_of_magic_comment='find . -name *.rb | xargs sed -i -e "1i# -\*- frozen-string-literal: true -\*-\n"'
+
+alias c='git checkout `git branch | peco | sed -e "s/\* //g" | awk "{print \$1}"`'

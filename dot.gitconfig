@@ -28,6 +28,8 @@
   diff = auto
   branch = auto
   interactive = auto
+[core]
+  excludesfile = ~/.gitignore
 [fetch]
   prune = true
 [ghq]

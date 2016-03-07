@@ -1,3 +1,4 @@
+source ~/.bash/env-vars.sh
 source ~/.bash/my.sh
 source ~/.bash/bundler.sh
 source ~/.bash/git.sh

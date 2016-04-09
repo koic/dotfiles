@@ -11,3 +11,6 @@
 
 ;; Disable menu bar
 (menu-bar-mode -1)
+
+;; Inhibit startup message
+(setq inhibit-startup-message t)

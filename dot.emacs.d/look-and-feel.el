@@ -14,3 +14,6 @@
 
 ;; Inhibit startup message
 (setq inhibit-startup-message t)
+
+;; C-k kill whole line
+(setq kill-whole-line t)

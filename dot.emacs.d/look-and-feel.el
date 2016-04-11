@@ -17,3 +17,6 @@
 
 ;; C-k kill whole line
 (setq kill-whole-line t)
+
+;; Ignore beep
+(setq ring-bell-function 'ignore)

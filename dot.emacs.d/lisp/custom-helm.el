@@ -24,3 +24,13 @@
   "Execute command only if CANDIDATE exists"
   (when (file-exists-p candidate)
     ad-do-it))
+
+;;
+;; recentf configuration
+;;
+(require 'recentf)
+(setq recentf-save-file "~/.emacs.d/.recentf")
+(setq recentf-max-saved-items 1000)            ;; Count of stored file in recentf
+(setq recentf-exclude '(".recentf"))           ;; Ignore .recentf-self
+(setq recentf-auto-cleanup 10)                 ;; Auto cleanup
+(run-with-idle-timer 30 t 'recentf-save-list)  ;; Store .recentf file every 30 secounds

@@ -29,7 +29,7 @@
 ;; recentf configuration
 ;;
 (require 'recentf)
-(setq recentf-save-file "~/.emacs.d/.recentf")
+(setq recentf-save-file (locate-user-emacs-file ".recentf"))
 (setq recentf-max-saved-items 1000)            ;; Count of stored file in recentf
 (setq recentf-exclude '(".recentf"))           ;; Ignore .recentf-self
 (setq recentf-auto-cleanup 10)                 ;; Auto cleanup

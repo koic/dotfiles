@@ -9,6 +9,6 @@
     (goto-char (point-max))
       (eval-print-last-sexp)))
 
-(load "~/.emacs.d/el-get.el")
+(load (locate-user-emacs-file "el-get.el"))
 
-(mapc 'load (file-expand-wildcards "~/.emacs.d/lisp/*.el"))
+(mapc 'load (file-expand-wildcards (locate-user-emacs-file "lisp/*.el")))

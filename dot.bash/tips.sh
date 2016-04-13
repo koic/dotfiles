@@ -5,7 +5,7 @@ function replace_text() {
     return 1
   fi
 
-  bash -c "ack -l $1 | xargs sed -i -e \"s/$1/$2/g\""
+  bash -c "ag -l $1 | xargs sed -i -e \"s/$1/$2/g\""
 }
 
 alias insert_frozen_string_literal_of_magic_comment='find . -name *.rb | xargs sed -i -e "1i# -\*- frozen-string-literal: true -\*-\n"'

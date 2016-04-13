@@ -8,6 +8,7 @@
 (el-get-bundle auto-complete)
 (el-get-bundle git-commit-mode)
 (el-get-bundle helm)
+(el-get-bundle helm-ls-git)
 (el-get-bundle projectile-rails)
 
 (el-get-bundle tarao/el-get-lock)

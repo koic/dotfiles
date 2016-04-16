@@ -1,4 +1,5 @@
 (el-get-bundle elpa:feature-mode)
+(el-get-bundle elpa:git-gutter)
 (el-get-bundle elpa:haml-mode)
 (el-get-bundle elpa:markdown-mode)
 (el-get-bundle elpa:migemo)

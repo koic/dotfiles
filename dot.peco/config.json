@@ -3,5 +3,9 @@
         "M-v": "peco.ScrollPageUp",
         "C-v": "peco.ScrollPageDown",
         "C-g": "peco.Cancel"
+    },
+    "Style": {
+	"Selected": ["underline", "on_white", "black"],
+	"Matched": ["bold", "blue", "on_white"]
     }
 }

@@ -1,0 +1,3 @@
+[submodule "dot.bash/enhancd"]
+	path = dot.bash/enhancd
+	url = https://github.com/b4b4r07/enhancd

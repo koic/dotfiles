@@ -6,6 +6,7 @@
 (el-get-bundle elpa:sass-mode)
 (el-get-bundle elpa:yaml-mode)
 
+(el-get-bundle ag)
 (el-get-bundle auto-complete)
 (el-get-bundle git-commit-mode)
 (el-get-bundle helm)

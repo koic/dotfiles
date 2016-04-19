@@ -12,5 +12,6 @@
 (load (locate-user-emacs-file "el-get.el"))
 
 (setq el-get-user-package-directory (locate-user-emacs-file "init"))
+(mapc 'load (file-expand-wildcards (locate-user-emacs-file "init/init-*.elc")))
 
 (mapc 'load (file-expand-wildcards (locate-user-emacs-file "lisp/*.el")))

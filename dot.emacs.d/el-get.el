@@ -8,6 +8,7 @@
 
 (el-get-bundle ace-isearch)
 (el-get-bundle ag)
+(el-get-bundle anzu)
 (el-get-bundle auto-complete)
 (el-get-bundle git-commit-mode)
 (el-get-bundle helm)

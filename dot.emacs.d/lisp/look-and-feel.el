@@ -20,3 +20,6 @@
 
 ;; Ignore beep
 (setq ring-bell-function 'ignore)
+
+;; Confirmation binding
+(fset 'yes-or-no-p 'y-or-n-p)

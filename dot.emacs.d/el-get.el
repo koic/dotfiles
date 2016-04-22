@@ -16,6 +16,7 @@
 (el-get-bundle helm-ls-git)
 (el-get-bundle helm-swoop)
 (el-get-bundle projectile-rails)
+(el-get-bundle rspec-mode)
 
 (el-get-bundle tarao/el-get-lock)
 

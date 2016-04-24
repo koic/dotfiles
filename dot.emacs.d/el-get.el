@@ -17,6 +17,7 @@
 (el-get-bundle helm-swoop)
 (el-get-bundle projectile-rails)
 (el-get-bundle rspec-mode)
+(el-get-bundle sync-recentf)
 
 (el-get-bundle tarao/el-get-lock)
 

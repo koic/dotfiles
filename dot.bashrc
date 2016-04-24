@@ -12,4 +12,5 @@ source ~/.bash/rails.sh
 source ~/.bash/rbenv.sh
 source ~/.bash/ruby.sh
 source ~/.bash/rspec.sh
+source ~/.bash/share_history.sh
 source ~/.bash/tips.sh

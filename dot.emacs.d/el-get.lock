@@ -1,5 +1,6 @@
 (setq el-get-lock-package-versions
-      '((rspec-mode :checksum "031d36dab878e5aa2f7e26ec2fa639903e17303e")
+      '((coffee-mode :checksum "e1331a2b1f29fe54a0d8b4facfa02ab2e115b7b2")
+        (rspec-mode :checksum "031d36dab878e5aa2f7e26ec2fa639903e17303e")
         (anzu :checksum "174b940c7e53e9e8180abc718d61dd200f7748be")
         (avy :checksum "4c072be8e6fd495f33b95375a2ed5d14a452627a")
         (ace-jump-mode :checksum "8351e2df4fbbeb2a4003f2fb39f46d33803f3dac")

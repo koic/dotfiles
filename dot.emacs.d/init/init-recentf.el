@@ -8,6 +8,6 @@
 (setq recentf-save-file (locate-user-emacs-file ".recentf"))
 (setq recentf-max-saved-items 1000)               ;; Count of stored file in recentf
 (setq recentf-exclude '(".recentf"))              ;; Ignore .recentf-self
-(setq recentf-auto-cleanup 10)                    ;; Auto cleanup
+(setq recentf-auto-cleanup 'never)                ;; Auto cleanup
 (run-with-idle-timer 30 t '(lambda ()             ;; Store .recentf file every 30 secounds
   (with-suppressed-message (recentf-save-list))))

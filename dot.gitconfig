@@ -36,5 +36,9 @@
   root = ~/src
 [github]
   user = koic
+[pager]
+  log = diff-highlight | less
+  show = diff-highlight | less
+  diff = diff-highlight | less
 [pull]
   rebase = true

@@ -1,5 +1,6 @@
 source ~/.bash/env-vars.sh
 source ~/.bash/my.sh
+source ~/.bash/ag.sh
 source ~/.bash/aliases.sh
 source ~/.bash/bundler.sh
 source ~/.bash/enhancd/enhancd.sh

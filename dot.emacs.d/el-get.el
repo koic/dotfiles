@@ -17,6 +17,7 @@
 (el-get-bundle helm-ls-git)
 (el-get-bundle helm-swoop)
 (el-get-bundle projectile-rails)
+(el-get-bundle recentf-ext)
 (el-get-bundle rspec-mode)
 (el-get-bundle sync-recentf)
 

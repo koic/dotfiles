@@ -11,3 +11,6 @@
 (setq recentf-auto-cleanup 'never)                ;; Auto cleanup
 (run-with-idle-timer 30 t '(lambda ()             ;; Store .recentf file every 30 secounds
   (with-suppressed-message (recentf-save-list))))
+
+(add-to-list 'load-path (locate-user-emacs-file "el-get/recentf-ext"))
+(require 'recentf-ext)

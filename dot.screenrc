@@ -6,4 +6,4 @@ bind o focus
 bind 1 only
 bind 0 remove
 vbell off
-shell bash
+shell zsh

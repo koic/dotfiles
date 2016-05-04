@@ -37,8 +37,8 @@
 [github]
   user = koic
 [pager]
-  log = diff-highlight | less
-  show = diff-highlight | less
-  diff = diff-highlight | less
+  log = diff-highlight | emojify | less
+  show = diff-highlight | emojify | less
+  diff = diff-highlight | emojify | less
 [pull]
   rebase = true

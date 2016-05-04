@@ -4,3 +4,6 @@
 [submodule "dot.sh/enhancd"]
 	path = dot.sh/enhancd
 	url = https://github.com/b4b4r07/enhancd.git
+[submodule "dot.sh/emoji-cli"]
+	path = dot.sh/emoji-cli
+	url = https://github.com/b4b4r07/emoji-cli.git

@@ -37,8 +37,8 @@
 [github]
   user = koic
 [pager]
-  log = diff-highlight | emojify | less
-  show = diff-highlight | emojify | less
-  diff = diff-highlight | emojify | less
+  log = diff-highlight | emojify | less --no-init --quit-if-one-screen
+  show = diff-highlight | emojify | less --no-init --quit-if-one-screen
+  diff = diff-highlight | emojify | less --no-init --quit-if-one-screen
 [pull]
   rebase = true

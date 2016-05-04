@@ -52,6 +52,22 @@ ZSH_THEME="robbyrussell"
 plugins=(git)
 
 # User configuration
+source ~/.bash/env-vars.sh
+source ~/.bash/my.sh
+source ~/.bash/ag.sh
+source ~/.bash/aliases.sh
+source ~/.bash/bundler.sh
+source ~/.bash/enhancd/enhancd.sh
+source ~/.bash/git.sh
+source ~/.bash/gnu-sed.sh
+source ~/.bash/go.sh
+source ~/.bash/oracle.sh
+source ~/.bash/postgres.sh
+source ~/.bash/rails.sh
+source ~/.bash/rbenv.sh
+source ~/.bash/ruby.sh
+source ~/.bash/rspec.sh
+source ~/.bash/tips.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 

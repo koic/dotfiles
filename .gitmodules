@@ -7,3 +7,6 @@
 [submodule "dot.sh/emoji-cli"]
 	path = dot.sh/emoji-cli
 	url = https://github.com/b4b4r07/emoji-cli.git
+[submodule "dot.sh/emojify"]
+	path = dot.sh/emojify
+	url = https://github.com/mrowa44/emojify.git

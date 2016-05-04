@@ -1,6 +1,6 @@
-[submodule "dot.bash/enhancd"]
-	path = dot.bash/enhancd
-	url = https://github.com/b4b4r07/enhancd
 [submodule "dot.oh-my-zsh"]
 	path = dot.oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "dot.sh/enhancd"]
+	path = dot.sh/enhancd
+	url = https://github.com/b4b4r07/enhancd.git

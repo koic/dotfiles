@@ -3,7 +3,7 @@
 DOTFILES_SRC=$HOME/work/git/dotfiles
 
 ln -sf $DOTFILES_SRC/dot.agignore $HOME/.agignore
-ln -sf $DOTFILES_SRC/dot.bash $HOME/.bash
+ln -sf $DOTFILES_SRC/dot.sh $HOME/.sh
 ln -sf $DOTFILES_SRC/dot.gemrc $HOME/.gemrc
 ln -sf $DOTFILES_SRC/dot.gitignore $HOME/.gitignore
 ln -sf $DOTFILES_SRC/dot.oh-my-zsh $HOME/.oh-my-zsh

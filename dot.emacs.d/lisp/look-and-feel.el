@@ -1,3 +1,5 @@
+(load-theme 'whiteboard t)
+
 ;; Enable visual line mode
 ;;   Thx http://alainmathematics.blogspot.jp/2013/07/emacs.html
 (global-visual-line-mode)

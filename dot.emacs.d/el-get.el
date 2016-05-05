@@ -20,6 +20,7 @@
 (el-get-bundle recentf-ext)
 (el-get-bundle rspec-mode)
 (el-get-bundle sync-recentf)
+(el-get-bundle undo-tree)
 
 (el-get-bundle tarao/el-get-lock)
 

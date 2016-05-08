@@ -1,0 +1,5 @@
+(add-to-list 'load-path (locate-user-emacs-file "elpa/seq-2.15"))
+(add-to-list 'load-path (locate-user-emacs-file "el-get/flycheck"))
+(require 'flycheck)
+(setq flycheck-check-syntax-automatically '(mode-enabled save))
+(add-hook 'ruby-mode-hook 'flycheck-mode)

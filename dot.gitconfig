@@ -10,11 +10,11 @@
   co = checkout
   cp = !sh -c 'git cherry-pick $0~$1...$0'
   ds = diff --staged
-  l = log
-  lg = log --graph
-  lr = log --reverse
-  lp = log -p --stat
-  lpr = log -p --stat --reverse
+  l = log --decorate
+  lg = log --graph --decorate
+  lr = log --reverse --decorate
+  lp = log -p --stat --decorate
+  lpr = log -p --stat --decorate --reverse
   rh = reset HEAD^
   ri = !sh -c 'git rebase -i HEAD~$0'
   s = show

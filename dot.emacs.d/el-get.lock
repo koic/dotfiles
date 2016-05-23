@@ -1,5 +1,6 @@
 (setq el-get-lock-package-versions
-      '((flycheck :checksum "469e7b7fd50c1c799fdf152a51f6722f4509dd9c")
+      '((yasnippet :checksum "497867cea5395ddfd2d482176bd789de9b1576b8")
+        (flycheck :checksum "469e7b7fd50c1c799fdf152a51f6722f4509dd9c")
         (undo-tree :checksum "a3e81b682053a81e082139300ef0a913a7a610a2")
         (recentf-ext :checksum "495bfe07e8a759f1e6dfbd45e62ae2f72404ff79")
         (magit :checksum "cac6b5b0f7ae809f64659810fc53dfa66f1c3257")

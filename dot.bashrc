@@ -4,6 +4,7 @@ source ~/.sh/ag.sh
 source ~/.sh/aliases.sh
 source ~/.sh/bundler.sh
 source ~/.sh/enhancd/enhancd.sh
+source ~/.sh/ghq.sh
 source ~/.sh/git.sh
 source ~/.sh/gnu-sed.sh
 source ~/.sh/go.sh

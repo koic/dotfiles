@@ -60,6 +60,7 @@ source ~/.sh/bundler.sh
 source ~/.sh/emoji-cli/emoji-cli.zsh
 source ~/.sh/emojify.sh
 source ~/.sh/enhancd/enhancd.sh
+source ~/.sh/ghq.sh
 source ~/.sh/git.sh
 source ~/.sh/gnu-sed.sh
 source ~/.sh/go.sh

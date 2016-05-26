@@ -22,6 +22,7 @@
 (el-get-bundle recentf-ext)
 (el-get-bundle rspec-mode)
 (el-get-bundle ruby-end)
+(el-get-bundle slim-mode)
 (el-get-bundle sync-recentf)
 (el-get-bundle undo-tree)
 (el-get-bundle yasnippet)

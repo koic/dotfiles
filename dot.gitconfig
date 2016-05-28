@@ -29,6 +29,7 @@
   branch = auto
   interactive = auto
 [core]
+  editor = emacsclient -nw -a ''
   excludesfile = ~/.gitignore
 [fetch]
   prune = true

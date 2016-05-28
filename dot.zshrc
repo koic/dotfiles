@@ -57,6 +57,7 @@ source ~/.sh/my.sh
 source ~/.sh/ag.sh
 source ~/.sh/aliases.sh
 source ~/.sh/bundler.sh
+source ~/.sh/emacs.sh
 source ~/.sh/emoji-cli/emoji-cli.zsh
 source ~/.sh/emojify.sh
 source ~/.sh/enhancd/enhancd.sh

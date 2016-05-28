@@ -21,6 +21,7 @@ brew install git
 brew install gnu-sed
 brew install graphicsmagick
 brew install graphviz
+brew install hub
 brew install imagemagick
 brew install jq
 brew install llvm

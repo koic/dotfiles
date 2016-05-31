@@ -14,4 +14,5 @@ ln -sf $DOTFILES_SRC/dot.bashrc $HOME/.bashrc
 ln -sf $DOTFILES_SRC/dot.gitconfig $HOME/.gitconfig
 ln -sf $DOTFILES_SRC/dot.irbrc $HOME/.irbrc
 ln -sf $DOTFILES_SRC/dot.pryrc $HOME/.pryrc
+ln -sf $DOTFILES_SRC/dot.vimrc $HOME/.vimrc
 ln -sf $DOTFILES_SRC/dot.zshrc $HOME/.zshrc

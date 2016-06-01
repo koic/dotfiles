@@ -10,6 +10,7 @@ ln -sf $DOTFILES_SRC/dot.gitignore $HOME/.gitignore
 ln -sf $DOTFILES_SRC/dot.oh-my-zsh $HOME/.oh-my-zsh
 ln -sf $DOTFILES_SRC/dot.peco $HOME/.peco
 ln -sf $DOTFILES_SRC/dot.screenrc $HOME/.screenrc
+ln -sf $DOTFILES_SRC/dot.default-gems $HOME/.rbenv/default-gems
 ln -sf $DOTFILES_SRC/dot.bashrc $HOME/.bashrc
 ln -sf $DOTFILES_SRC/dot.gitconfig $HOME/.gitconfig
 ln -sf $DOTFILES_SRC/dot.irbrc $HOME/.irbrc

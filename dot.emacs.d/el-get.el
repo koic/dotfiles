@@ -25,6 +25,7 @@
 (el-get-bundle slim-mode)
 (el-get-bundle sync-recentf)
 (el-get-bundle undo-tree)
+(el-get-bundle web-mode)
 (el-get-bundle yasnippet)
 
 (el-get-bundle tarao/el-get-lock)

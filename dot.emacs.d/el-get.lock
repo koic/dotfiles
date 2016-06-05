@@ -1,5 +1,6 @@
 (setq el-get-lock-package-versions
-      '((slim-mode :checksum "869c84821cf3e556b380c5c35d8ad62287c4df58")
+      '((web-mode :checksum "1445f400c154d5f9eff10311c8ac7dd935a0fe26")
+        (slim-mode :checksum "869c84821cf3e556b380c5c35d8ad62287c4df58")
         (ruby-end :checksum "79b4ea788b9cae9282da809507d0a56aa9c057c8")
         (yasnippet :checksum "497867cea5395ddfd2d482176bd789de9b1576b8")
         (flycheck :checksum "469e7b7fd50c1c799fdf152a51f6722f4509dd9c")

@@ -70,6 +70,7 @@ source ~/.sh/postgres.sh
 source ~/.sh/rails.sh
 source ~/.sh/rbenv.sh
 source ~/.sh/ruby.sh
+source ~/.sh/rurema.sh
 source ~/.sh/rspec.sh
 source ~/.sh/tips.sh
 

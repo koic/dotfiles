@@ -15,6 +15,7 @@
 (el-get-bundle git-commit-mode)
 (el-get-bundle helm)
 (el-get-bundle helm-ag)
+(el-get-bundle helm-ghq)
 (el-get-bundle helm-ls-git)
 (el-get-bundle helm-swoop)
 (el-get-bundle magit)

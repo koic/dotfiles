@@ -20,6 +20,7 @@
 (el-get-bundle helm-ls-git)
 (el-get-bundle helm-swoop)
 (el-get-bundle magit)
+(el-get-bundle mark-multiple)
 (el-get-bundle projectile-rails)
 (el-get-bundle recentf-ext)
 (el-get-bundle rspec-mode)

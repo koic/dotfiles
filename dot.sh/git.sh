@@ -2,7 +2,7 @@ alias g='git'
 
 GIT_VERSION=`git --version | cut -d ' ' -f3`
 
-PATH=$PATH:/usr/local/Cellar/git/$GIT_VERSION/share/git-core/contrib/diff-highlight
+PATH=$PATH:/usr/local/share/git-core/contrib/diff-highlight
 
 source /usr/local/Cellar/git/$GIT_VERSION/etc/bash_completion.d/git-prompt.sh
 

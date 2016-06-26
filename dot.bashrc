@@ -12,6 +12,7 @@ source ~/.sh/go.sh
 source ~/.sh/history.sh
 source ~/.sh/oracle.sh
 source ~/.sh/postgres.sh
+source ~/.sh/rabbit.sh
 source ~/.sh/rails.sh
 source ~/.sh/rbenv.sh
 source ~/.sh/ruby.sh

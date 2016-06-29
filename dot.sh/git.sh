@@ -1,4 +1,5 @@
 alias g='git'
+alias b='git checkout `git branch | peco | sed -e "s/\* //g" | awk "{print \$1}"`'
 
 GIT_VERSION=`git --version | cut -d ' ' -f3`
 

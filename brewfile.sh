@@ -8,6 +8,7 @@ brew install ack
 brew install aspell
 brew install autoconf
 brew install automake
+brew install axel
 brew install cairo
 brew install cmake
 brew install cmigemo

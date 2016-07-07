@@ -66,6 +66,7 @@ source ~/.sh/git.sh
 source ~/.sh/gnu-sed.sh
 source ~/.sh/go.sh
 source ~/.sh/oracle.sh
+source ~/.sh/parallel_tests.sh
 source ~/.sh/postgres.sh
 source ~/.sh/rabbit.sh
 source ~/.sh/rails.sh

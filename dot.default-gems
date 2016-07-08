@@ -2,3 +2,4 @@ bundler
 gem-src
 pry
 ripper-tags
+sudden_death

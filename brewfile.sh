@@ -20,6 +20,7 @@ brew install enscript
 brew install fzf
 brew install git
 brew install gnu-sed
+brew tap b4b4r07/gomi && brew install gomi
 brew install graphicsmagick
 brew install graphviz
 brew install hub

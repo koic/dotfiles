@@ -1,3 +1,4 @@
+alias op='open .'
 alias date='gdate' # Use GNU's date in Mac OS X
 alias tac='gtac'   # Use GNU's tac in Mac OS X
 alias diff='colordiff'

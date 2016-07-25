@@ -1,5 +1,6 @@
 bundler
 gem-src
+gemdiff
 pry
 ripper-tags
 sudden_death

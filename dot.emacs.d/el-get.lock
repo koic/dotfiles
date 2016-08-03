@@ -1,5 +1,6 @@
 (setq el-get-lock-package-versions
-      '((expand-region :checksum "59f67115263676de5345581216640019975c4fda")
+      '((open-junk-file :checksum "f87b93ec26e92dc747da43499d0cbf5ab70fd8c2")
+        (expand-region :checksum "59f67115263676de5345581216640019975c4fda")
         (mark-multiple :checksum "f6a53c7c5283d640ae718f4548b0fda78877a375")
         (helm-ghq :checksum "db37bfe290b234ed3f39dcce24667072172ded41")
         (web-mode :checksum "1445f400c154d5f9eff10311c8ac7dd935a0fe26")

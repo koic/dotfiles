@@ -19,6 +19,7 @@ brew install --with-cocoa emacs
 brew install enscript
 brew install fzf
 brew install git
+brew install git-when-merged
 brew install gnu-sed
 brew tap b4b4r07/gomi && brew install gomi
 brew install graphicsmagick

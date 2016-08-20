@@ -3,5 +3,6 @@ blur_image
 gem-src
 gemdiff
 pry
+pry-doc
 ripper-tags
 sudden_death

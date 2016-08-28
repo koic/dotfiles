@@ -24,6 +24,7 @@
 (el-get-bundle mark-multiple)
 (el-get-bundle open-junk-file)
 (el-get-bundle projectile-rails)
+(el-get-bundle rainbow-delimiters-mode)
 (el-get-bundle recentf-ext)
 (el-get-bundle rspec-mode)
 (el-get-bundle ruby-end)

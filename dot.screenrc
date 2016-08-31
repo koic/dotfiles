@@ -5,5 +5,8 @@ bind 2 split
 bind o focus
 bind 1 only
 bind 0 remove
+bindkey -m ' ' eval 'stuff \040' 'writebuf' 'exec sh -c "/usr/bin/pbcopy < /tmp/screen-exchange"'
+bindkey -m Y   eval 'stuff Y'    'writebuf' 'exec sh -c "/usr/bin/pbcopy < /tmp/screen-exchange"'
+bindkey -m W   eval 'stuff W'    'writebuf' 'exec sh -c "/usr/bin/pbcopy < /tmp/screen-exchange"'
 vbell off
 shell zsh

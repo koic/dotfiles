@@ -38,6 +38,7 @@ brew install peco
 brew install pstree
 brew install rbenv-default-gems
 brew install the_silver_searcher
+brew install tig
 brew install tmux
 brew install wget
 brew install --without-etcdir zsh

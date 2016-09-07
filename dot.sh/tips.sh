@@ -14,6 +14,24 @@ function replace_text() {
   bash -c "$target | xargs sed -i -e \"s/$1/$2/g\""
 }
 
+#
+# Example
+#
+# % out_diff "echo 'hello'" "echo 'bye'"
+# < hello
+# ---
+# > bye
+#
+function out_diff() {
+  if [ $# -eq 2 ]; then
+      bash -c "diff <( $1 ) <( $2 )"
+  else
+    echo "usage: outdiff command1 command2" 1>&2
+
+    return 1
+  fi
+}
+
 function convert_uploadable_keynote_pdf() {
   if [ $# -eq 1 ]; then
       bash -c "LANG=C LC_ALL=C sed -i 's|/Registry (Adobe) /Ordering (Japan1) /Supplement [0-9]|/Registry(Adobe) /Ordering(Identity) /Supplement 0|g' $1"

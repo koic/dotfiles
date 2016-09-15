@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DOTFILES_SRC=$HOME/src/github.com/koic/dotfiles
+DOTFILES_SRC=`ghq root`/github.com/koic/dotfiles/dot.emacs.d
 
 ln -sf $DOTFILES_SRC/dot.agignore $HOME/.agignore
 ln -sf $DOTFILES_SRC/dot.aspell.conf $HOME/.aspell.conf

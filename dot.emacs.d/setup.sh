@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DOTFILES_SRC=$HOME/src/github.com/koic/dotfiles/dot.emacs.d
+DOTFILES_SRC=`ghq root`/github.com/koic/dotfiles/dot.emacs.d
 
 ln -sf $DOTFILES_SRC/el-get.el $HOME/el-get.el
 ln -sf $DOTFILES_SRC/el-get.lock $HOME/el-get.lock

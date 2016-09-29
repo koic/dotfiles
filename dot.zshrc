@@ -61,6 +61,7 @@ source ~/.sh/emacs.sh
 source ~/.sh/emoji-cli/emoji-cli.zsh
 source ~/.sh/emojify.sh
 source ~/.sh/enhancd/enhancd.sh
+source ~/.sh/gem-src.sh
 source ~/.sh/ghq.sh
 source ~/.sh/git.sh
 source ~/.sh/gnu-sed.sh

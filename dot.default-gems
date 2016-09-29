@@ -1,6 +1,5 @@
 bundler
 blur_image
-gem-src
 gemdiff
 pry
 pry-doc

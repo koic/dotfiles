@@ -1,6 +1,8 @@
 alias g='git'
 alias b='git checkout `git branch | peco | sed -e "s/\* //g" | awk "{print \$1}"`'
 
+alias git_remote_add="git remote add upstream https://github.com/`git config --global github.user`/${PWD##*/}"
+
 GIT_VERSION=`git --version | cut -d ' ' -f3`
 
 PATH=$PATH:/usr/local/share/git-core/contrib/diff-highlight

@@ -21,6 +21,7 @@ brew install fzf
 brew install git
 brew install git-when-merged
 brew install gnu-sed
+brew install go
 brew tap b4b4r07/gomi && brew install gomi
 brew install graphicsmagick
 brew install graphviz

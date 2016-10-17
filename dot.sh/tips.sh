@@ -42,6 +42,8 @@ function convert_uploadable_keynote_pdf() {
   fi
 }
 
+alias find_100mb_or_more_files_in_src="find `ghq root` -size +100000000c"
+
 alias insert_frozen_string_literal_of_magic_comment='find . -name *.rb | xargs sed -i -e "1i# -\*- frozen-string-literal: true -\*-\n"'
 
 alias rbenv_update='pushd . && cd ~/.rbenv && git pull origin master && cd ~/.rbenv/plugins/ruby-build && git pull origin master && popd'

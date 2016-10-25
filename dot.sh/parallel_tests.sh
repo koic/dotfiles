@@ -8,6 +8,7 @@ function parallel_rspec_rails_cuke() {
   fi
 }
 
+alias parallel_db_environment_set="bundle exec parallel_test --exec 'rails db:environment:set RAILS_ENV=test' -n 4"
 alias parallel_db_schema_load="bundle exec parallel_test --exec 'rake db:schema:load RAILS_ENV=test' -n 4"
 alias parallel_db_migrate_reset="bundle exec parallel_test --exec 'rake db:migrate:reset RAILS_ENV=test' -n 4"
 alias parallel_prepare="RAILS_ENV=test bundle exec rake 'parallel:prepare[4]'"

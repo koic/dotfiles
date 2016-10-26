@@ -72,6 +72,7 @@ source ~/.sh/postgres.sh
 source ~/.sh/rabbit.sh
 source ~/.sh/rails.sh
 source ~/.sh/rbenv.sh
+source ~/.sh/replace_text/replace_text
 source ~/.sh/ruby.sh
 source ~/.sh/rurema.sh
 source ~/.sh/rspec.sh

@@ -10,3 +10,6 @@
 [submodule "dot.sh/emojify"]
 	path = dot.sh/emojify
 	url = https://github.com/mrowa44/emojify.git
+[submodule "dot.sh/replace_text"]
+	path = dot.sh/replace_text
+	url = https://github.com/koic/replace_text.git

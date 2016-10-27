@@ -38,6 +38,7 @@ brew install nkf
 brew install peco
 brew install pstree
 brew install rbenv-default-gems
+brew install rlwrap
 brew install the_silver_searcher
 brew install tig
 brew install tmux

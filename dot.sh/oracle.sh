@@ -14,3 +14,5 @@ case $OS_PRODUCT_VERSION in
   10.11*)       export OCI_DIR=${ORACLE_HOME}/lib;;           # for El Capitan
   *)            echo "Version OS X $OS_PRODUCT_VERSION not supported.";;
 esac
+
+alias sqlplus='rlwrap sqlplus'

@@ -47,3 +47,5 @@
   diff = diff-highlight | emojify | less --no-init --quit-if-one-screen
 [pull]
   rebase = true
+[rebase]
+  autostash = true

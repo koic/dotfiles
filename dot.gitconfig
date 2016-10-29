@@ -1,51 +1,51 @@
 [user]
-  email = koic.ito@gmail.com
-  name = Koichi ITO
+	email = koic.ito@gmail.com
+	name = Koichi ITO
 [alias]
-  ad = add
-  b = branch -a
-  br = branch
-  ca = commit -v --amend
-  ci = commit -v
-  co = checkout
-  cp = !sh -c 'git cherry-pick $0~$1...$0'
-  ds = diff --staged
-  l = log --decorate
-  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-  lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-  lr = log --reverse --decorate
-  lp = log -p --stat --decorate
-  lpr = log -p --stat --decorate --reverse
-  rh = reset HEAD^
-  ri = !sh -c 'git rebase -i HEAD~$0'
-  ri2 = !sh -c 'git stash && git rebase -i HEAD~2 && git stash pop'
-  s = show
-  sc = shortlog -s # SCouter
-  st = status
-  serve = daemon --export-all --base-path=. --base-path-relaxed
-  in = !sh -c 'git log ..origin/${1:-master}'
-  out = !sh -c 'git log origin/${1:-master}..' -
+	ad = add
+	b = branch -a
+	br = branch
+	ca = commit -v --amend
+	ci = commit -v
+	co = checkout
+	cp = !sh -c 'git cherry-pick $0~$1...$0'
+	ds = diff --staged
+	l = log --decorate
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	lr = log --reverse --decorate
+	lp = log -p --stat --decorate
+	lpr = log -p --stat --decorate --reverse
+	rh = reset HEAD^
+	ri = !sh -c 'git rebase -i HEAD~$0'
+	ri2 = !sh -c 'git stash && git rebase -i HEAD~2 && git stash pop'
+	s = show
+	sc = shortlog -s # SCouter
+	st = status
+	serve = daemon --export-all --base-path=. --base-path-relaxed
+	in = !sh -c 'git log ..origin/${1:-master}'
+	out = !sh -c 'git log origin/${1:-master}..' -
 [color]
-  status = auto
-  diff = auto
-  branch = auto
-  interactive = auto
+	status = auto
+	diff = auto
+	branch = auto
+	interactive = auto
 [core]
-  editor = emacsclient -nw -a ''
-  excludesfile = ~/.gitignore
+	editor = emacsclient -nw -a ''
+	excludesfile = ~/.gitignore
 [diff]
-  compactionHeuristic = true
+	compactionHeuristic = true
 [fetch]
-  prune = true
+	prune = true
 [ghq]
-  root = ~/src
+	root = ~/src
 [github]
-  user = koic
+	user = koic
 [pager]
-  log = diff-highlight | emojify | less --no-init --quit-if-one-screen
-  show = diff-highlight | emojify | less --no-init --quit-if-one-screen
-  diff = diff-highlight | emojify | less --no-init --quit-if-one-screen
+	log = diff-highlight | emojify | less --no-init --quit-if-one-screen
+	show = diff-highlight | emojify | less --no-init --quit-if-one-screen
+	diff = diff-highlight | emojify | less --no-init --quit-if-one-screen
 [pull]
-  rebase = true
+	rebase = true
 [rebase]
-  autostash = true
+	autostash = true

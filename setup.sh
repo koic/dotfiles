@@ -17,4 +17,5 @@ ln -sf $DOTFILES_SRC/dot.screenrc $HOME/.screenrc
 ln -sf $DOTFILES_SRC/dot.sh $HOME/.sh
 ln -sf $DOTFILES_SRC/dot.tmux.conf $HOME/.tmux.conf
 ln -sf $DOTFILES_SRC/dot.vimrc $HOME/.vimrc
+ln -sf $DOTFILES_SRC/dot.zlogin $HOME/.zlogin
 ln -sf $DOTFILES_SRC/dot.zshrc $HOME/.zshrc

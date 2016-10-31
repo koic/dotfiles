@@ -1,0 +1,2 @@
+cd `ghq root`
+screen

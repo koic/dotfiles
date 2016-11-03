@@ -1,11 +1,11 @@
 function parallel_rspec_rails_cuke() {
-  if [ $# -eq 1 ]; then
-    bash -c "RAILS_ENV=test bundle exec parallel_test spec --type rspec -n 4 --suffix '$1'"
-  else
-    echo "usage: parallel_rspec_rails_cuke path" 1>&2
+    if [ $# -eq 1 ]; then
+        bash -c "RAILS_ENV=test bundle exec parallel_test spec --type rspec -n 4 --suffix '$1'"
+    else
+        echo "usage: parallel_rspec_rails_cuke path" 1>&2
 
-    return 1
-  fi
+        return 1
+    fi
 }
 
 alias parallel_db_environment_set="bundle exec parallel_test --exec 'rails db:environment:set RAILS_ENV=test' -n 4"

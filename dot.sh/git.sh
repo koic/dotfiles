@@ -10,7 +10,7 @@ PATH=$PATH:/usr/local/share/git-core/contrib/diff-highlight
 source /usr/local/Cellar/git/$GIT_VERSION/etc/bash_completion.d/git-prompt.sh
 
 if [ `echo $SHELL | grep -c "bash"` -eq 1 ]; then
-  source /usr/local/Cellar/git/$GIT_VERSION/etc/bash_completion.d/git-completion.bash
+    source /usr/local/Cellar/git/$GIT_VERSION/etc/bash_completion.d/git-completion.bash
 fi
 
 GIT_PS1_SHOWDIRTYSTATE=true

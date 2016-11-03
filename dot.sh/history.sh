@@ -1,8 +1,8 @@
 # Settings for share history
 function share_history {
-  history -a
-  history -c
-  history -r
+    history -a
+    history -c
+    history -r
 }
 
 PROMPT_COMMAND='share_history'

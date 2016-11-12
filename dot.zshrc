@@ -53,7 +53,6 @@ plugins=(git)
 
 # User configuration
 source ~/.sh/env-vars.sh
-source ~/.sh/my.sh
 source ~/.sh/ag.sh
 source ~/.sh/aliases.sh
 source ~/.sh/bundler.sh
@@ -77,6 +76,7 @@ source ~/.sh/ruby.sh
 source ~/.sh/rurema.sh
 source ~/.sh/rspec.sh
 source ~/.sh/tips.sh
+source ~/.sh/my.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 

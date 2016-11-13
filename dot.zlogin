@@ -1,2 +1,1 @@
-cd `ghq root`
-screen
+cd `ghq root` && screen

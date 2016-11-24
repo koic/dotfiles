@@ -10,3 +10,5 @@ bindkey -m Y   eval 'stuff Y'    'writebuf' 'exec sh -c "/usr/bin/pbcopy < /tmp/
 bindkey -m W   eval 'stuff W'    'writebuf' 'exec sh -c "/usr/bin/pbcopy < /tmp/screen-exchange"'
 vbell off
 shell zsh
+screen -t emacs 0 emacs
+screen -t local 1

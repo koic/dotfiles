@@ -1,1 +1,1 @@
-cd `ghq root` && screen
+cd `ghq root` && backup_recentf && screen

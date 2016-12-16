@@ -13,3 +13,11 @@ function ghqhub() {
         hub browse $(ghq list | peco | cut -d "/" -f 2,3)
     fi
 }
+
+function ghqgem() {
+    if [ $# -eq 1 ]; then
+        open "https://rubygems.org/gems/$(ghq list | peco --query $1 | cut -d "/" -f 3)"
+    else
+        open "https://rubygems.org/gems/$(ghq list | peco | cut -d "/" -f 3)"
+    fi
+}

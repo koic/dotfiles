@@ -25,3 +25,10 @@
 
 ;; Confirmation binding
 (fset 'yes-or-no-p 'y-or-n-p)
+
+;; enable saveplace
+(if (and (>= emacs-major-version 24) (>= emacs-minor-version 5))
+  ;; For GNU Emacs 24.5 and older versions.
+  (progn (require 'saveplace) (setq-default save-place t))
+  ;; For GNU Emacs 25.1 and newer versions.
+  (save-place-mode 1))

@@ -37,6 +37,7 @@ brew install node
 brew install nkf
 brew install peco
 brew install pstree
+brew install ragel # Use to build `whitequark/parser`
 brew install rbenv-default-gems
 brew install rlwrap
 brew install the_silver_searcher

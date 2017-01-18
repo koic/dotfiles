@@ -53,5 +53,6 @@ brew install screen
 
 brew install caskroom/cask/brew-cask
 brew cask install iterm2 && brew cask cleanup
+brew cask install mojibar
 
 brew install https://raw.githubusercontent.com/BurntSushi/ripgrep/master/pkg/brew/ripgrep.rb

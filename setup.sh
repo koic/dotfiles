@@ -5,6 +5,7 @@ DOTFILES_SRC=`ghq root`/github.com/koic/dotfiles
 ln -sf $DOTFILES_SRC/dot.agignore $HOME/.agignore
 ln -sf $DOTFILES_SRC/dot.aspell.conf $HOME/.aspell.conf
 ln -sf $DOTFILES_SRC/dot.bashrc $HOME/.bashrc
+ln -sf $DOTFILES_SRC/dot.bundle $HOME/.bundle
 ln -sf $DOTFILES_SRC/dot.default-gems $HOME/.rbenv/default-gems
 ln -sf $DOTFILES_SRC/dot.gemrc $HOME/.gemrc
 ln -sf $DOTFILES_SRC/dot.gitconfig $HOME/.gitconfig

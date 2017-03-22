@@ -20,6 +20,9 @@
 ;; C-k kill whole line
 (setq kill-whole-line t)
 
+;; Scroll just one line when hitting bottom of window
+(setq scroll-conservatively 1)
+
 ;; Ignore beep
 (setq ring-bell-function 'ignore)
 

@@ -34,7 +34,7 @@
 	editor = emacsclient -nw -a ''
 	excludesfile = ~/.gitignore
 [diff]
-	compactionHeuristic = true
+	indentHeuristic = true
 [fetch]
 	prune = true
 [ghq]

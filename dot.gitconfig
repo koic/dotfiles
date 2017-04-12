@@ -42,9 +42,9 @@
 [github]
 	user = koic
 [pager]
-	log = diff-highlight | emojify | less --no-init --quit-if-one-screen
-	show = diff-highlight | emojify | less --no-init --quit-if-one-screen
-	diff = diff-highlight | emojify | less --no-init --quit-if-one-screen
+	log = diff-highlight | less --no-init --quit-if-one-screen
+	show = diff-highlight | less --no-init --quit-if-one-screen
+	diff = diff-highlight | less --no-init --quit-if-one-screen
 [pull]
 	rebase = true
 [rebase]

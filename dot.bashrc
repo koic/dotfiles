@@ -20,5 +20,6 @@ source ~/.sh/replace_text/replace_text
 source ~/.sh/ruby.sh
 source ~/.sh/rurema.sh
 source ~/.sh/rspec.sh
+source ~/.sh/source-highlight.sh
 source ~/.sh/tips.sh
 source ~/.sh/my.sh

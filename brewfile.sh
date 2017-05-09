@@ -40,6 +40,7 @@ brew install pstree
 brew install ragel # Use to build `whitequark/parser`
 brew install rbenv-default-gems
 brew install rlwrap
+brew install source-highlight
 brew install the_silver_searcher
 brew install tig
 brew install tmux

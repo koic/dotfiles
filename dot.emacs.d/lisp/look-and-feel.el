@@ -23,6 +23,9 @@
 ;; Scroll just one line when hitting bottom of window
 (setq scroll-conservatively 1)
 
+;; Prefer horizontal split
+(setq split-width-threshold nil)
+
 ;; Ignore beep
 (setq ring-bell-function 'ignore)
 

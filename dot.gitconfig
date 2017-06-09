@@ -18,7 +18,6 @@
 	lpr = log -p --stat --decorate --reverse
 	rh = reset HEAD^
 	ri = !sh -c 'git rebase -i HEAD~$0'
-	ri2 = !sh -c 'git stash && git rebase -i HEAD~2 && git stash pop'
 	s = show
 	sc = shortlog -s # SCouter
 	st = status

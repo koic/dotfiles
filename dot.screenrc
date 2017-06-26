@@ -1,5 +1,5 @@
 startup_message off
-escape ^Tt
+escape ^Zz
 defscrollback 10000
 bind 2 split
 bind o focus

@@ -3,7 +3,7 @@ source ~/.sh/ag.sh
 source ~/.sh/aliases.sh
 source ~/.sh/bundler.sh
 source ~/.sh/emacs.sh
-source ~/.sh/enhancd/enhancd.sh
+source ~/.sh/enhancd/init.sh
 source ~/.sh/gem-src.sh
 source ~/.sh/ghq.sh
 source ~/.sh/git.sh

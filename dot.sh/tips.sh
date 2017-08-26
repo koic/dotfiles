@@ -34,6 +34,21 @@ function convert_uploadable_keynote_pdf() {
     fi
 }
 
+function show_message_digest() {
+    if [ $# -eq 1 ]; then
+        echo 'The following is SHA256'
+        shasum -a 256 $1
+        echo 'The following is MD5'
+        md5 $1
+        echo 'The following is SHA512'
+        shasum -a 512 $1
+    else
+        echo "usage: show_message_digest path/to/file" 1>&2
+
+        return 1
+    fi
+}
+
 alias find_100mb_or_more_files_in_src="find `ghq root` -size +100000000c"
 
 alias rbenv_update='pushd . && cd ~/.rbenv && git pull origin master && cd ~/.rbenv/plugins/ruby-build && git pull origin master && popd'

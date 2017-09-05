@@ -58,7 +58,6 @@ source ~/.sh/aliases.sh
 source ~/.sh/bundler.sh
 source ~/.sh/emacs.sh
 source ~/.sh/emoji-cli/emoji-cli.zsh
-source ~/.sh/emojify.sh
 source ~/.sh/enhancd/init.sh
 source ~/.sh/gem-src.sh
 source ~/.sh/ghq.sh

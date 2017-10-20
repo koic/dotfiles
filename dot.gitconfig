@@ -30,6 +30,7 @@
 	branch = auto
 	interactive = auto
 [core]
+	commentchar = ^
 	editor = emacsclient -nw -a ''
 	excludesfile = ~/.gitignore
 [diff]

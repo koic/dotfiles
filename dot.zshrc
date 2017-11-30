@@ -82,6 +82,10 @@ source ~/.sh/my.sh
 
 source $ZSH/oh-my-zsh.sh
 
+# Prevent from interfering with copy-paste when using `kphoen` theme
+ZSH_THEME_GIT_PROMPT_UNTRACKED=''
+ZSH_THEME_GIT_PROMPT_MODIFIED=''
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 

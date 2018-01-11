@@ -28,6 +28,7 @@ brew install graphviz
 brew install hub
 brew install imagemagick
 brew install jq
+brew install libxml2
 brew install llvm
 brew install migemogrep
 brew install mongodb

@@ -1,4 +1,4 @@
-function ghqlist() {
+function cr() {
     if [ $# -eq 1 ]; then
         cd $(ghq list -p | peco --query $1)
     else

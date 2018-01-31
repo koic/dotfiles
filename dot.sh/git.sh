@@ -1,5 +1,5 @@
 alias g='git'
-alias b='git checkout `git branch | peco | sed -e "s/\* //g" | awk "{print \$1}"`'
+alias cb='git checkout `git branch | peco | sed -e "s/\* //g" | awk "{print \$1}"`'
 
 alias git_remote_add="git remote add upstream https://github.com/`git config --global github.user`/${PWD##*/}"
 

@@ -6,6 +6,7 @@
 	b = branch -a
 	br = branch
 	ca = commit -v --amend
+	cf = commit -v --fixup=HEAD
 	ci = commit -v
 	co = checkout
 	cp = !sh -c 'git cherry-pick $0~$1...$0'

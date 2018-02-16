@@ -1,8 +1,12 @@
 function cr() {
     if [ $# -eq 1 ]; then
-        cd $(ghq list -p | peco --query $1)
+        repo=$(ghq list -p | peco --query $1)
     else
-        cd $(ghq list -p | peco)
+        repo=$(ghq list -p | peco)
+    fi
+
+    if [ -n "$repo" ]; then
+        cd $repo
     fi
 }
 

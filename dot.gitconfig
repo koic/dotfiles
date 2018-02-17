@@ -10,6 +10,7 @@
 	ci = commit -v
 	co = checkout
 	cp = !sh -c 'git cherry-pick $0~$1...$0'
+	cs = commit -v --squash=HEAD
 	ds = diff --staged
 	l = log --decorate
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative

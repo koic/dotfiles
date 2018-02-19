@@ -8,6 +8,7 @@ ln -sf $DOTFILES_SRC/dot.bashrc $HOME/.bashrc
 ln -sf $DOTFILES_SRC/dot.bundle $HOME/.bundle
 ln -sf $DOTFILES_SRC/dot.default-gems $HOME/.rbenv/default-gems
 ln -sf $DOTFILES_SRC/dot.gemrc $HOME/.gemrc
+ln -sf $DOTFILES_SRC/dot.git_template/hooks $HOME/.git_template
 ln -sf $DOTFILES_SRC/dot.gitconfig $HOME/.gitconfig
 ln -sf $DOTFILES_SRC/dot.gitignore $HOME/.gitignore
 ln -sf $DOTFILES_SRC/dot.irbrc $HOME/.irbrc

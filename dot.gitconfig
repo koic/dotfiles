@@ -43,6 +43,8 @@
 	root = ~/src
 [github]
 	user = koic
+[init]
+	templatedir = ~/src/github.com/koic/dotfiles/dot.git_template
 [pager]
 	log = diff-highlight | less --no-init --quit-if-one-screen
 	show = diff-highlight | less --no-init --quit-if-one-screen

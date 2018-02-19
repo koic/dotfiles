@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# A hook script that prevents the prefix from pushing the branch of `wip_`.
+#
+# e.g. wip_branch
+#
+if [ "$(git rev-parse --abbrev-ref HEAD | grep '^wip_')" ]; then
+    echo "\033[0;31m[ABORT] You cannot push a branch whose prefix is \`wip_\`.\033[0;39m" 1>&2
+    exit 1
+fi
+
+exit 0

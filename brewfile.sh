@@ -36,6 +36,7 @@ brew install neo4j
 brew install ngrok
 brew install node
 brew install nkf
+brew install pandoc
 brew install peco
 brew install pstree
 brew install ragel # Use to build `whitequark/parser`

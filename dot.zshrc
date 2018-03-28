@@ -83,6 +83,7 @@ source ~/.sh/my.sh
 source $ZSH/oh-my-zsh.sh
 
 # Prevent from interfering with copy-paste when using `kphoen` theme
+RPS1=''
 ZSH_THEME_GIT_PROMPT_UNTRACKED=''
 ZSH_THEME_GIT_PROMPT_MODIFIED=''
 

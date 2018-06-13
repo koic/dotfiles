@@ -33,7 +33,6 @@ brew install llvm
 brew install migemogrep
 brew install mongodb
 brew install neo4j
-brew install ngrok
 brew install node
 brew install nkf
 brew install pandoc
@@ -57,5 +56,6 @@ brew install screen
 brew install caskroom/cask/brew-cask
 brew cask install iterm2 && brew cask cleanup
 brew cask install mojibar
+brew cask install ngrok
 
 brew install https://raw.githubusercontent.com/BurntSushi/ripgrep/master/pkg/brew/ripgrep.rb

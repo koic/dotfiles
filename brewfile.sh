@@ -15,6 +15,7 @@ brew install cmigemo
 brew install colordiff
 brew install coreutils
 brew install ctags
+brew install docker
 brew install --with-cocoa emacs
 brew install enscript
 brew install fzf
@@ -54,6 +55,7 @@ brew install less   # Terminal displays weird characters... Thanks to https://gi
 brew install screen
 
 brew install caskroom/cask/brew-cask
+brew cask install docker
 brew cask install iterm2 && brew cask cleanup
 brew cask install mojibar
 brew cask install ngrok

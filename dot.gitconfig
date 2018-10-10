@@ -54,3 +54,5 @@
 [rebase]
 	autostash = true
 	autosquash = true
+[rerere]
+	enabled = true

@@ -14,6 +14,9 @@
 ;; Disable menu bar
 (menu-bar-mode -1)
 
+;; Disable mode names from mode line
+(delete 'mode-line-modes mode-line-format)
+
 ;; Inhibit startup message
 (setq inhibit-startup-message t)
 

@@ -7,6 +7,9 @@
 ;; Highlight cursor line
 (global-hl-line-mode t)
 
+;; Display column number to mode line
+(column-number-mode t)
+
 (custom-set-faces
   '(hl-line ((t (:background "MistyRose1"))))
 )

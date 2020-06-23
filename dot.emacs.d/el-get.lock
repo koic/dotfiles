@@ -1,5 +1,7 @@
 (setq el-get-lock-package-versions
-      '((quickrun :checksum "487a74c7db513ceba86e849c8f42f834234c1f7b")
+      '((pcre2el :checksum "0b5b2a2c173aab3fd14aac6cf5e90ad3bf58fa7d")
+        (ht :checksum "fff8c43f0e03d5b98deb9f988522b839ce2ca253")
+        (quickrun :checksum "487a74c7db513ceba86e849c8f42f834234c1f7b")
         (go-mode :checksum "004575eb128ab01a11b4a4d278c544f91cf752fd")
         (rainbow-delimiters :checksum "93cd2dc873e7fedca7abc599cd97d46db4376ac7")
         (open-junk-file :checksum "f87b93ec26e92dc747da43499d0cbf5ab70fd8c2")
@@ -22,7 +24,7 @@
         (avy :checksum "4c072be8e6fd495f33b95375a2ed5d14a452627a")
         (ace-jump-mode :checksum "8351e2df4fbbeb2a4003f2fb39f46d33803f3dac")
         (ace-isearch :checksum "9a32a039623e3907a4fce959aa48c26a79fb249b")
-        (helm-swoop :checksum "fd01dac3d647544f4ca297ca9963859b07ebe354")
+        (helm-swoop :checksum "2efc552591102ab8b4408ad60a3c4be991bb8e93")
         (helm-ag :checksum "be0e4ea26f8e34f3be10bf96bdcd1b2d4fc07228")
         (ag :checksum "29d40fdaa4f605e9a6bf689050f0767f3ba22307")
         (helm-ls-git :checksum "841400ff302c5fdcba55fd6b2a18a01b420fcfd2")

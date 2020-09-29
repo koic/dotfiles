@@ -1,11 +1,17 @@
 #!/bin/sh
 #
-# A hook script that prevents the prefix from pushing the branch of `wip_`.
+# A hook script that prevents pushing a branch that match the following conditions:
 #
-# e.g. wip_branch
+# - prefix of branch name is `wip_` (e.g. `wip_branch`)
+# - commit titles include those that start with `fixup!` (e.g. `fixup! foo`)
 #
 if [ "$(git rev-parse --abbrev-ref HEAD | grep '^wip_')" ]; then
     echo "\033[0;31m[ABORT] You cannot push a branch whose prefix is \`wip_\`.\033[0;39m" 1>&2
+    exit 1
+fi
+
+if [ "$(git log --oneline master..head | grep 'fixup! ')" ]; then
+    echo "\033[0;31m[ABORT] You cannot push a commit whose title starts \`fixup! \`.\033[0;39m" 1>&2
     exit 1
 fi
 

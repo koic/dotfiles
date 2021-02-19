@@ -44,6 +44,8 @@
 	root = ~/src
 [github]
 	user = koic
+[grep]
+	lineNumber = true
 [init]
 	templatedir = ~/src/github.com/koic/dotfiles/dot.git_template
 [pager]

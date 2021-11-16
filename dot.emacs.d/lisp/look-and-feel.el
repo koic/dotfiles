@@ -23,6 +23,9 @@
 ;; Inhibit startup message
 (setq inhibit-startup-message t)
 
+;; Don't use soft tab by default and set 4 to tab width.
+(setq-default tab-width 4 indent-tabs-mode nil)
+
 ;; C-k kill whole line
 (setq kill-whole-line t)
 

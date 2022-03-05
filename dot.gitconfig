@@ -19,7 +19,7 @@
 	lr = log --reverse --decorate
 	lp = log -p --stat --decorate
 	lpr = log -p --stat --decorate --reverse
-	push-f = push --force-with-lease
+	pushf = push --force-with-lease
 	rh = reset HEAD^
 	ri = !sh -c 'git rebase -i HEAD~$0'
 	s = show

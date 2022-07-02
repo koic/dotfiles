@@ -1,5 +1,6 @@
 (setq el-get-lock-package-versions
-      '((rust-mode :checksum "c8ae5dedb3deddaf35f6345da894ae26d156bf27")
+      '((typescript-mode :checksum "f2de3f4946c846a23753b351eaf8b56017e02d89")
+        (rust-mode :checksum "c8ae5dedb3deddaf35f6345da894ae26d156bf27")
         (pcre2el :checksum "0b5b2a2c173aab3fd14aac6cf5e90ad3bf58fa7d")
         (ht :checksum "fff8c43f0e03d5b98deb9f988522b839ce2ca253")
         (quickrun :checksum "487a74c7db513ceba86e849c8f42f834234c1f7b")

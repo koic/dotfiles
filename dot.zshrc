@@ -64,6 +64,7 @@ source ~/.sh/ghq.sh
 source ~/.sh/git.sh
 source ~/.sh/gnu-sed.sh
 source ~/.sh/go.sh
+source ~/.sh/nodenv.sh
 source ~/.sh/oracle.sh
 source ~/.sh/parallel_tests.sh
 source ~/.sh/postgres.sh

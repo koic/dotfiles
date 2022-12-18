@@ -83,6 +83,7 @@ source ~/.sh/my.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
+source ~/.sh/history.sh
 
 # Prevent from interfering with copy-paste when using `kphoen` theme
 RPS1=''
